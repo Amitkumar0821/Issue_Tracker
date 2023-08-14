@@ -2,8 +2,7 @@
 
 const mongoose = require('mongoose');
 // // const url = 'mongodb://0.0.0.0:27017/db';
-// const url = 'mongodb://127.0.0.1:27017/db';
-const url='mongodb+srv://kfaizan0496:049632@cluster0.ebrke2k.mongodb.net/?retryWrites=true&w=majority'
+const url = 'mongodb://127.0.0.1:27017/db';
 
 
 // mongoose.connect('url') 
