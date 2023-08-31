@@ -1,8 +1,7 @@
 // setting up the mongodb connection through mongoose
 
 const mongoose = require('mongoose');
-// // const url = 'mongodb://0.0.0.0:27017/db';
-const url = 'mongodb://127.0.0.1:27017/db';
+const url = 'mongodb+srv://amitkumarmandal126:amit#@0821@cluster0.llwj3d2.mongodb.net/Issue_Tracker?retryWrites=true&w=majority';
 
 
 // mongoose.connect('url') 
@@ -39,9 +38,3 @@ module.exports=db;
 //   useNewUrlParser: true,
 //   serverSelectionTimeoutMS: 10000, // 30 seconds
 // });
-
-
-
-
-
-// mongodb+srv://kfaizan0496:<password>@cluster0.ebrke2k.mongodb.net/?retryWrites=true&w=majority 
